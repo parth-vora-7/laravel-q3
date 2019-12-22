@@ -2,7 +2,7 @@
 
 namespace App;
 
-use Moloquent;
+use Jenssegers\Mongodb\Eloquent\Model as Moloquent;
 
 class Post extends Moloquent
 {
